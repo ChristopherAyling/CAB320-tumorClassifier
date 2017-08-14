@@ -1,2 +1,2 @@
 # CAB320-tumorClassifier
-Classifies tumors and either Malignant or Benign using various ML techniques.
+Classifies tumors as either Malignant or Benign using various ML techniques.
