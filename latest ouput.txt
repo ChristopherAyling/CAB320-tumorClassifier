@@ -1,0 +1,57 @@
+# - - - PREPROCESSING - - - #
+
+training:validation =  0.7 : 0.3
+
+MIN_SPLITS =  2
+MAX_SPLITS =  152
+
+# - - - BUILDING CLASSIFIERS - - - #
+
+Building NB Classifier...
+new best found! score =  0.940039086929  | k =  10
+new best found! score =  0.940169869117  | k =  21
+new best found! score =  0.940554845126  | k =  23
+new best found! score =  0.94068627451  | k =  68
+new best found! score =  0.941176470588  | k =  119
+new best found! score =  0.941460055096  | k =  121
+new best found! score =  0.94193989071  | k =  122
+new best found! score =  0.942411924119  | k =  123
+new best found! score =  0.942876344086  | k =  124
+
+Building DT Classifier...
+new best found! max_depth =  None  | score =  0.924941254085  | k =  3
+new best found! max_depth =  None  | score =  0.930280830281  | k =  15
+new best found! max_depth =  2  | score =  0.937307001094  | k =  5
+new best found! max_depth =  24  | score =  0.937463666198  | k =  5
+
+Building KNN Classifier...
+new best found! n_neighbors =  5  | score =  0.932596935585  | k =  10
+new best found! n_neighbors =  5  | score =  0.934940984941  | k =  15
+new best found! n_neighbors =  5  | score =  0.93515037594  | k =  20
+
+Building SVM Classifier...
+new best found! gamma =  0.001  | C =  1 | kernel =  rbf  | score =  0.912296287984  | k =  3
+new best found! gamma =  0.001  | C =  1 | kernel =  rbf  | score =  0.919837865291  | k =  5
+new best found! gamma =  0.001  | C =  1 | kernel =  rbf  | score =  0.919846779237  | k =  10
+new best found! gamma =  0.001  | C =  1 | kernel =  rbf  | score =  0.924691358025  | k =  15
+new best found! gamma =  0.001  | C =  1 | kernel =  rbf  | score =  0.924780701754  | k =  20
+new best found! gamma =  0.0001  | C =  1 | kernel =  rbf  | score =  0.93236596693  | k =  3
+new best found! gamma =  0.0001  | C =  1 | kernel =  rbf  | score =  0.934901156431  | k =  5
+new best found! gamma =  0.0001  | C =  1 | kernel =  rbf  | score =  0.934914008755  | k =  10
+new best found! gamma =  0.0001  | C =  1 | kernel =  rbf  | score =  0.934940984941  | k =  15
+new best found! gamma =  1000  | C =  1 | kernel =  linear  | score =  0.952473619599  | k =  3
+new best found! gamma =  1000  | C =  1 | kernel =  linear  | score =  0.959966010314  | k =  5
+new best found! gamma =  1000  | C =  1 | kernel =  linear  | score =  0.967426516573  | k =  10
+
+# - - - BUILDING FIGURES AND TABLES - - - #
+
+execution times:  [13.55297187707788, 10.122860935852714, 0.6564933925678815, 287.6139720704848]
+
+# - - - CLASSIFIER VALIDATION - - - #
+Naive-Bayes Accuracy:  0.964705882353
+
+Decision Tree Accuracy:  0.888235294118
+
+Nearest Neighbor Accuracy:  0.935294117647
+
+Support Vector Machine Accuracy:  0.947058823529
